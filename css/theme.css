@@ -104,7 +104,14 @@ a:hover {
 a:active {
   color: #3b79db;
 }
-
+.bot {
+   z-index: 1000;
+   margin-left: 82%;
+}
+.bot {
+    min-width:560px;
+    display:hidden;
+}
 a:hover,
 a {
   -webkit-transition: all 0.3s ease;
@@ -3356,12 +3363,9 @@ ul.list-reset {
   padding: 35px;
 }
 
-.section-header .logo-dark {
-  display: none;
-}
-
-.section-header .logo-light {
+.section-header .logo {
   display: inline-block;
+  width: 250px;
 }
 
 @media (max-width: 991px) {
