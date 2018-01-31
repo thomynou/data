@@ -2404,8 +2404,8 @@ a {
 
 .au-btn-pill:hover {
   color: #fff;
-  border-color: #458cff;
-  background: #458cff;
+  border-color: #fff;
+  background: #bc7025;
 }
 
 .au-btn-pill:active {
@@ -2419,7 +2419,7 @@ a {
 }
 
 .au-btn-border {
-  background: transparent;
+  background: #DA822B;
   border: 2px solid #fff;
   color: #fff;
   padding: 12px 38px;
@@ -2430,14 +2430,14 @@ a {
 }
 
 .au-btn-primary {
-  background: #4285f4;
+  background: #DA822B;
   border: #4285f4;
   color: #fff;
 }
 
 .au-btn-primary:hover {
   border-color: #458cff;
-  background: #458cff;
+  background: #DA822B;
 }
 
 .au-btn-primary:active {
@@ -2935,6 +2935,13 @@ ul.list-reset {
   margin-bottom: 5px;
 }
 
+.box-style-1 .box-body .box-author .profession {
+  display: block;
+  color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5px;
+}
+
 .box-style-1 .box-body .box-author .author-job {
   margin-bottom: 10px;
   display: block;
@@ -3087,7 +3094,7 @@ ul.list-reset {
 .dots-style-1 li.slick-active {
   width: 12px;
   height: 12px;
-  background: #4285f4;
+  background: #fff;
 }
 
 .iconbox-style-1 {
@@ -3271,11 +3278,7 @@ ul.list-reset {
 /*Style 4*/
 .iconbox-style-4 {
   width: 100%;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
   border-radius: 10px;
-  border: 1px solid #e5e5e5;
-  padding: 15px 20px;
   text-align: center;
 }
 
